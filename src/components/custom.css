@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Prata&family=Montserrat&display=swap');
+
+/*Globals*/
+body{
+  --light-green: #D4D6D2;
+  --dark-green: #6C7069;
+  --rose:#E8E3E3;
+  --slate:#3D3D45;
+
+}
+.d-flex{
+  display: flex;
+}
+.align-center{
+  align-items: center;
+}
+.twoPanel{
+  display: flex;
+  width:100%;
+}
+.bg-light-green{
+  background: var(--light-green);
+}
+p{
+  font-family:'montserrat', sans-serif;
+}
+/*homepage*/
+.homepageLHS{
+  width:50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.homepageBusinessCard{
+padding:40px;
+}
+.homepageBusinessCard .twoPanel {
+  padding:20px 0px;
+  justify-content: space-around;
+}
+.homepageBusinessCard .twoPanel li{
+font-size:22px;
+}
+.verticalSeperator{
+  border-left:2px solid #3D3D45;
+  height:100px;
+}
+.homepageBusinessCard button{
+  width:100%;
+  background: #3D3D45;
+  border:none;
+  height:40px;
+  color:white;
+  font-family: 'prata';
+}
+/*content pages*/
+.headerSection{
+  height:200px;
+  display: flex;
+}
+.headerSection h1{
+  display: inline-block;
+  align-self: flex-end;
+}
+.textSection {
+  line-height: 170%;
+  padding:40px;
+}
+.headerSection, .textSection{
+  padding-left:10vw;
+}
+.labourTextbox{
+  max-width:900px;
+}
+.aboutTextbox{
+  max-width:600px;
+}
+/*temp*/
+.b{background-color:lightblue; width:50%; height:1000px;}
+header{
+  display: flex;
+  justify-content: space-around;
+}
