@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Prata&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Prata&family=Montserrat:wght@400;600&display=swap');
 
 /*Globals*/
 body{
@@ -6,13 +6,24 @@ body{
   --dark-green: #6C7069;
   --rose:#E8E3E3;
   --slate:#3D3D45;
-
 }
 .d-flex{
   display: flex;
 }
+.d-none{
+  display: none;
+}
+.text-center{
+  text-align: center;
+}
+.justify-content-center{
+  justify-content: center;
+}
 .align-center{
   align-items: center;
+}
+.space-between{
+  justify-content: space-between;
 }
 .twoPanel{
   display: flex;
@@ -21,8 +32,28 @@ body{
 .bg-light-green{
   background: var(--light-green);
 }
+.bg-pink{
+  background: var(--rose);
+}
+a{
+  color:black;
+}
 p{
   font-family:'montserrat', sans-serif;
+}
+.serrat{
+  font-family: 'montserrat';
+}
+.bold{
+  font-weight: 600;
+}
+/*header and footer*/
+footer{
+  background:#3D3D45;
+  color:white;
+  font-family:'prata';
+  margin-bottom:0px;
+  padding:30px 10vw;
 }
 /*homepage*/
 .homepageLHS{
@@ -69,6 +100,7 @@ font-size:22px;
 }
 .headerSection, .textSection{
   padding-left:10vw;
+  padding-right:10vw;
 }
 .labourTextbox{
   max-width:900px;
@@ -76,6 +108,35 @@ font-size:22px;
 .aboutTextbox{
   max-width:600px;
 }
+.relative-up-40{
+  position: relative;
+  bottom:80px;
+  padding:0px 100px;
+}
+.quoteblock{
+  background: var(--dark-green);
+  color:white;
+  line-height: 144.1%;
+}
+.quoteblock p{
+  font-size: 18px;
+  padding:100px;
+}
+
+/*contact form*/
+.form-group{
+  margin:40px 0px;
+}
+.form-control{
+  width:100%;
+}
+.contactFormWrapper{
+  width:525px;
+  max-width:80vw;
+  margin:auto;
+}
+
+
 /*temp*/
 .b{background-color:lightblue; width:50%; height:1000px;}
 header{
