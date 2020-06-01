@@ -14,7 +14,7 @@ const IndexPage = () => (
         <h1>Leslie Belloc-Pinder, Q.C.</h1>
           <div className="twoPanel">
             <div>
-            <ul><li>Arbitration</li><li>Adjutication</li><li>Decision-making</li></ul>
+            <ul><li>Arbitration</li><li>Adjudication</li><li>Decision-making</li></ul>
             </div>
             <div className="verticalSeperator"></div>
             <div className="d-flex align-center">

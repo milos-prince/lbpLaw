@@ -13,10 +13,13 @@ body{
 .d-none{
   display: none;
 }
+.mb-0{
+  margin-bottom:0px;
+}
 .text-center{
   text-align: center;
 }
-.justify-content-center{
+.justify-center{
   justify-content: center;
 }
 .align-center{
