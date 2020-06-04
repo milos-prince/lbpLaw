@@ -13,6 +13,9 @@ body{
 .d-none{
   display: none;
 }
+.column{
+  flex-direction: column;
+}
 .mb-0{
   margin-bottom:0px;
 }
@@ -38,6 +41,20 @@ body{
 .bg-pink{
   background: var(--rose);
 }
+button{
+  width:200px;
+  height:50px;
+  background-color: transparent;
+  border: 2px solid black;
+  text-transform: uppercase;
+  font-family: 'montserrat';
+  font-size:18px;
+}
+button:hover{
+  background:black;
+  color:white;
+  cursor: pointer;
+}
 a{
   color:black;
 }
@@ -61,10 +78,19 @@ footer{
 /*homepage*/
 .homepageLHS{
   width:50%;
+  padding:40px;
   display:flex;
   justify-content: center;
   align-items: center;
-  
+}
+.homepageRHS{
+  padding:40px;
+}
+.homepageRHS h2{
+  font-size: 24px;
+line-height: 33px;
+font-weight:400;
+padding:80px 40px;
 }
 .homepageBusinessCard{
 padding:40px;
@@ -88,6 +114,20 @@ font-size:22px;
   color:white;
   font-family: 'prata';
 }
+#homepagePhoto{
+width:350px;
+height:500px;
+}
+#homepagePhoto2{
+  background-image: url(../images/2.jpeg);
+  height:20%;
+  background-size: cover;
+  }
+.colA, .colB{
+  width:50%;
+}
+.colA{background-color:var(--rose);}
+.colB{background-color: var(--light-green);}
 /*content pages*/
 .headerSection{
   height:200px;
@@ -125,23 +165,47 @@ font-size:22px;
   font-size: 18px;
   padding:100px;
 }
+.infoBox{
+  border:2px solid #3D3D45;
+  padding:40px;
+  width:100%;
+}
 
 /*contact form*/
 .form-group{
-  margin:40px 0px;
+  margin:30px 0px;
 }
 .form-control{
   width:100%;
+  font-family: 'montserrat';
+  font-size: 12px;
+line-height: 15px;
+padding:17px;
+border:1px solid black;
+}
+input{
+  color:black;
+  font-weight: 600;
+}
+input:focus, button:focus, textarea:focus{
+  outline: none;
 }
 .contactFormWrapper{
   width:525px;
   max-width:80vw;
   margin:auto;
+  padding-bottom:40px;
 }
-
-
+::placeholder{
+  color:black;
+  font-weight:600;
+  opacity: 1;
+}
+textarea{
+  resize:none;
+}
 /*temp*/
-.b{background-color:lightblue; width:50%; height:1000px;}
+
 header{
   display: flex;
   justify-content: space-around;

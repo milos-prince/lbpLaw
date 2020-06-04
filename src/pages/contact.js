@@ -29,7 +29,7 @@ const NotFoundPage = () => (
   <div class="form-group">
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message"></textarea>
   </div>
-  <div className="text-center"><button type="submit" class="btn btn-primary mt-5">Submit</button></div>
+  <div className="text-center"><button type="submit">Submit</button></div>
   </form>
   </div>
     

@@ -25,6 +25,13 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
+    <section className="textSection d-flex justify-center align-center">
+      <div className="infoBox text-center">
+        <h2>More information</h2>
+        <p>To view Leslie's cv, click here</p>
+        <p>www.hglaw.ca</p>
+      </div>
+    </section>
   </Layout>
 )
 
