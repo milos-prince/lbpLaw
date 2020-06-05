@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import marble from "../images/marble.png"
+import christina from "../images/christina.jpg"
 
 const IndexPage = () => (
   <Layout>
@@ -21,14 +21,14 @@ const IndexPage = () => (
         <p>I served as the President of the Law Society of Saskatchewan for 2019 and continue to sit on the Executive Committee as Past-President. My term as a Bencher will expire in December 2021.</p>
         </div>
         <div>
-          <img src={marble} className="relative-up-40"/>
+          <img src={christina} className="relative-up-40" id="aboutPicture"/>
         </div>
       </div>
     </section>
     <section className="textSection d-flex justify-center align-center">
       <div className="infoBox text-center">
         <h2>More information</h2>
-        <p>To view Leslie's cv, click here</p>
+        <p>To view Leslie's cv, <a href="" className="gold">click here</a></p>
         <p>www.hglaw.ca</p>
       </div>
     </section>
