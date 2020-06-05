@@ -30,8 +30,18 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
         <footer>
-          <h2>Lorem</h2>
-          <p>ipsum</p>
+          <div className="footerContent">
+            <div>
+            <h2>Leslie Belloc-Pinder, Q.C.</h2>
+            <p>601-402 21st Street East <br />Saskatoon, SK S7K 0C3</p>
+            <p>In association with <a href="https://www.hglaw.ca">HG Law</a></p>
+            </div>
+            <div>
+            <h2>Call us: (306) 653-5150</h2>
+            <p>Fax: (306) 652-5859</p>
+            <p>Monday - Friday 9:00am - 5:00pm </p>
+            </div>
+          </div>
         </footer>
       </div>
     </>

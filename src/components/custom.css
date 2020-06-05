@@ -73,18 +73,27 @@ footer{
   color:white;
   font-family:'prata';
   margin-bottom:0px;
-  padding:30px 10vw;
+  padding:30px 12vw;
+}
+footer a{
+  color:white;
+}
+.footerContent{
+  display: flex;
+  justify-content: space-between;
+  max-width:1200px;
+  margin:auto;
 }
 /*homepage*/
 .homepageLHS{
-  width:50%;
-  padding:40px;
+  width:45%;
   display:flex;
   justify-content: center;
   align-items: center;
 }
 .homepageRHS{
-  padding:40px;
+  width:55%;
+  padding-top:50px;
 }
 .homepageRHS h2{
   font-size: 24px;
@@ -115,16 +124,28 @@ font-size:22px;
   font-family: 'prata';
 }
 #homepagePhoto{
-width:350px;
+background-image: url(../images/christina.jpg);
+background-size: cover;
 height:500px;
 }
 #homepagePhoto2{
-  background-image: url(../images/2.jpeg);
-  height:20%;
+  background-image: url(../images/sask40.jpg);
+  height:260px;
   background-size: cover;
+  position: relative;
+  bottom:0px;
   }
-.colA, .colB{
-  width:50%;
+.colA {
+  width:40%;
+}
+.colB{
+  width:60%;
+  margin-top:50px;
+ display: flex;
+ justify-content: space-between;
+}
+.colBTop{
+  padding:120px 5vw;
 }
 .colA{background-color:var(--rose);}
 .colB{background-color: var(--light-green);}
@@ -209,4 +230,16 @@ textarea{
 header{
   display: flex;
   justify-content: space-around;
+}
+
+@media only screen and (max-width: 1200px) {
+  .homepageSplit{
+    flex-direction: column;
+  }
+  .homepageLHS, .homepageRHS{
+    width:100%;
+  }
+  .homepageLHS{
+    margin:100px 20px;
+  }
 }

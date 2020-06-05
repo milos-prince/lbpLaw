@@ -9,7 +9,7 @@ import christina from "../images/christina.jpg"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="twoPanel">
+    <div className="twoPanel homepageSplit">
       <div className="homepageLHS">
         <div className="homepageBusinessCard">
         <h1>Leslie Belloc-Pinder, Q.C.</h1>
@@ -27,12 +27,12 @@ const IndexPage = () => (
       </div>
       <div className="homepageRHS d-flex">
         <div className="d-flex column colA">
-        <img src={christina} id="homepagePhoto" />
-        <div className="d-flex justify-center align-center"><h2><a href="">Information for lawyers</a></h2></div>
+        <div id="homepagePhoto"></div>
+        <div className="d-flex justify-center align-center"><h2 className="mb-0"><a href="">Information for lawyers</a></h2></div>
         </div>
         <div className="d-flex column colB">
-        <div className="d-flex justify-center align-center">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id aliquet enim. Pellentesque tempus felis eros, ut volutpat metus consequat a. Ut cursus egestas iaculis. Nullam vitae finibus ex.</p></div>
+        <div className="colBTop">
+          <p className="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id aliquet enim. Pellentesque tempus felis eros, ut volutpat metus consequat a. Ut cursus egestas iaculis. Nullam vitae finibus ex.</p></div>
           <div id="homepagePhoto2"></div>
         </div>
       </div>
