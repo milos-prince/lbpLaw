@@ -60,6 +60,7 @@ a{
 }
 p{
   font-family:'montserrat', sans-serif;
+  font-size:18px;
 }
 .serrat{
   font-family: 'montserrat';
@@ -178,6 +179,10 @@ height:500px;
 .labourTextbox{
   max-width:900px;
 }
+.indentLeft{
+  margin-left:125px;
+  max-width: 1000px;
+}
 .aboutContent{
   justify-content: space-between;
   max-width: 1400px;
@@ -194,15 +199,55 @@ height:500px;
   position: relative;
   bottom:80px;
 }
-
 .quoteblock{
   background: var(--dark-green);
   color:white;
-  line-height: 144.1%;
+  max-width: 1000px;
+  position: relative;
 }
 .quoteblock p{
-  font-size: 18px;
+  font-size: 22px;
   padding:100px;
+  font-family: 'Prata';
+  line-height: 144.1%;
+}
+.leftQuote, .rightQuote{
+  position: absolute;
+  font-size:100px;
+  margin-bottom:0px;
+}
+.leftQuote{
+  left: 20px;
+  top:20px;
+}
+.rightQuote{
+  right: 20px;
+  bottom:-50px;
+}
+.benefitsOfArbitration{
+  list-style: disc;
+}
+.myProcess {
+  list-style: none;
+  flex-wrap: wrap;
+  
+}
+.myProcess li {
+  counter-increment: nonsense;
+  margin:40px 0px;
+}
+ol li::before {
+  content: counter(nonsense) ". ";
+  font-size: 30px;
+  font-family: 'Prata';
+}
+.benefitsOfArbitration li{
+  margin-left:50px;
+}
+.max500{
+  max-width: 800px;
+  margin:25px auto;
+ 
 }
 .infoBox{
   border:2px solid #3D3D45;
