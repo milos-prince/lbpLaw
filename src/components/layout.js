@@ -41,6 +41,7 @@ const Layout = ({ children }) => {
             <h2>Call me: <a href="tel:306-653-5154">(306) 653-5154</a></h2>
             <p>Mobile: <a href="tel:306-220-9102">(306) 220-9102</a></p>
             <p>Fax: (306) 652-5859</p>
+            <p>Email: <a href="mailto:lbelloc-pinder@hglaw.ca">lbelloc-pinder@hglaw.ca</a></p>
             </div>
           </div>
         </footer>
