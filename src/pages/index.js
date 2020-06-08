@@ -28,7 +28,7 @@ const IndexPage = () => (
       <div className="homepageRHS d-flex">
         <div className="d-flex column colA">
         <div id="homepagePhoto"></div>
-        <div className="d-flex justify-center align-center"><h2 className="mb-0"><a href="">Information for lawyers</a></h2></div>
+        <div className="lawyersPanel"><h2 className="mb-0"><Link to="/family-arbitration#note-to-lawyers">Information for lawyers</Link></h2></div>
         </div>
         <div className="d-flex column colB">
         <div className="colBTop">

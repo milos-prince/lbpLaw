@@ -46,7 +46,7 @@ const IndexPage = () => (
       <p>Due to my somewhat unique professional experience as lawyer who practiced a substantial amount of family law from 1986 – 2008 and who has also been working almost full-time as a decision maker from 2008 onward, I have the skills and experience necessary to conduct family arbitration hearings with considerable knowledge of family law and insight into the challenges faced by people challenged by family breakdown.</p>
     </section>
     <section className="bg-light-green textSection">
-      <h3 className="bold">Note to lawyers</h3>
+      <h3 className="bold" id="note-to-lawyers">Note to lawyers</h3>
       <p>Contact me to discuss arbitration of discreet issues within ongoing litigation or mediation, limited scope hearings, or opportunities to expedite urgent matters.</p>
       <p>You could appear with clients at an arbitration or send them to arbitration on their own with a view to continuing on with cases after a decision is made on a particular issue.</p>
     </section>

@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
             <p>In association with <a href="https://www.hglaw.ca">HG Law</a></p>
             </div>
             <div>
-            <h2>Call us: (306) 653-5150</h2>
+            <h2>Call us: <a href="tel:306-653-5150">(306) 653-5150</a></h2>
             <p>Fax: (306) 652-5859</p>
             <p>Monday - Friday 9:00am - 5:00pm </p>
             </div>
