@@ -34,12 +34,13 @@ const Layout = ({ children }) => {
             <div>
             <h2>Leslie Belloc-Pinder, Q.C.</h2>
             <p>601-402 21st Street East <br />Saskatoon, SK S7K 0C3</p>
-            <p>In association with <a href="https://www.hglaw.ca">HG Law</a></p>
+            <p>In association with Hnatyshyn Gough Law Firm
+            <br /><a href="https://www.hglaw.ca">www.hglaw.ca</a></p>
             </div>
             <div>
-            <h2>Call us: <a href="tel:306-653-5150">(306) 653-5150</a></h2>
+            <h2>Call me: <a href="tel:306-653-5154">(306) 653-5154</a></h2>
+            <p>Mobile: <a href="tel:306-220-9102">(306) 220-9102</a></p>
             <p>Fax: (306) 652-5859</p>
-            <p>Monday - Friday 9:00am - 5:00pm </p>
             </div>
           </div>
         </footer>
