@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import resolution from "../../static/early-dispute-resolution.pdf"
 
 const IndexPage = () => (
   <Layout>
@@ -17,8 +18,8 @@ const IndexPage = () => (
       </div>
       <div className="indentLeft">
       <p className="bold">These links below explain how family arbitration fits into the ERO:</p>
-      <p><a href="https://www.saskatchewan.ca/residents/births-deaths-marriages-and-divorces/separation-or-divorce/early-family-dispute-resolution/family-arbitration">https://www.saskatchewan.ca/residents/births-deaths-marriages-and-divorces/separation-or-divorce/early-family-dispute-resolution/family-arbitration</a></p>
-      <p><a href="https://pubsaskdev.blob.core.windows.net/pubsask-prod/114785/Mandatory%252BEarly%252BDispute%252BResolution%252BFact%252BSheet.pdf">https://pubsaskdev.blob.core.windows.net/pubsask-prod/114785/Mandatory%252BEarly%252BDispute%252BResolution%252BFact%252BSheet.pdf</a></p>
+      <p><a href="https://www.saskatchewan.ca/residents/births-deaths-marriages-and-divorces/separation-or-divorce/early-family-dispute-resolution/family-arbitration">Family Arbitration</a></p>
+      <p><a href={resolution}>Mandatory Early Dispute Resolution</a></p>
       </div>
       <div className="quoteblock"><h1 className="leftQuote mb-0">“</h1>
       <p>People whose family structure is changing often need legal help, but they do not always need to go to court. Family arbitration is one option to resolve issues where people cannot mediate and agree - Sometimes it is necessary to present the problem to an independent objective decision maker.</p>

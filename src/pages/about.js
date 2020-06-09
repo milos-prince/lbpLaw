@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import christina from "../images/christina.jpg"
+import resume from "../../static/leslie-resume.pdf"
 
 const IndexPage = () => (
   <Layout>
@@ -28,7 +29,7 @@ const IndexPage = () => (
     <section className="textSection d-flex justify-center align-center">
       <div className="infoBox text-center">
         <h2>More information</h2>
-        <p>To view Leslie's cv, <a href="" className="gold">click here</a></p>
+        <p>To view Leslie's cv, <a href={resume} className="gold">click here</a></p>
         <p className="mb-0"><a href="https://www.hglaw.ca">www.hglaw.ca</a></p>
       </div>
     </section>
