@@ -368,6 +368,10 @@ textarea{
 header{
   display: flex;
   justify-content: space-around;
+  font-family: 'montserrat';
+}
+header a{
+  text-decoration: none;
 }
 
 /*homepage breakpoint*/
@@ -385,7 +389,7 @@ header{
     max-width: 100%;
   }
   .verticalSeperator{
-    margin-z:10px;
+    margin:0px 10px;
   }
 }
 
