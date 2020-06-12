@@ -137,6 +137,24 @@ p{
   font-weight: 600;
 }
 /*header and footer*/
+header{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'montserrat';
+  padding:60px 5vw 30px;
+}
+header a{
+  text-decoration: none;
+}
+header .headerDesktopLHS{
+  width:1000px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.activeLink{
+  border-bottom:2px solid black;
+  transition:all .5s ease-out;
+}
 footer{
   background:#3D3D45;
   color:white;
@@ -152,6 +170,10 @@ footer a{
   justify-content: space-between;
   max-width:1250px;
 }
+
+/*link animation*/
+
+
 /*homepage*/
 .homepageSplit{
   justify-content: space-between;
@@ -176,6 +198,7 @@ align-self: center;
 }
 .lawyersPanel{
   margin: auto;
+  text-align: center;
 }
 .homepageBusinessCard{
 padding:40px;
@@ -363,19 +386,8 @@ input:focus, button:focus, textarea:focus{
 textarea{
   resize:none;
 }
-/*temp*/
-
-header{
-  display: flex;
-  justify-content: space-around;
-  font-family: 'montserrat';
-}
-header a{
-  text-decoration: none;
-}
-
 /*homepage breakpoint*/
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1450px) {
   .homepageSplit{
     flex-direction: column;
   }
@@ -386,7 +398,8 @@ header a{
     margin:100px 0px;
   }
   .homepageRHS{
-    max-width: 100%;
+    max-width: 1200px;
+    margin: auto;
   }
   .verticalSeperator{
     margin:0px 10px;
@@ -424,12 +437,9 @@ header a{
     margin: auto;
     width:300px;
   }
-  .colA, .colB{
-    width:50%;
-  }
   .lawyersPanel{
-  padding:0px 20px;
-  }
+    padding:0px 10px;
+    }
   .quoteblock p{
     padding:60px;
     font-size:18px;
@@ -438,4 +448,11 @@ header a{
     margin-left:-6vw;
     width:90vw;
   }
+}
+
+@media only screen and (max-width: 600px) {
+.colA, .colB{
+  width:50%;
+}
+
 }
