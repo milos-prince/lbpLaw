@@ -130,6 +130,9 @@ p{
   font-family:'montserrat', sans-serif;
   font-size:18px;
 }
+.ital{
+  font-style: italic;
+}
 .serrat{
   font-family: 'montserrat';
 }
