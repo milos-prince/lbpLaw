@@ -232,6 +232,7 @@ align-self: center;
 .lawyersPanel{
   margin: auto;
   text-align: center;
+  padding:100px 10px;
 }
 .homepageBusinessCard{
 padding:40px;
@@ -258,8 +259,10 @@ font-size:22px;
 #homepagePhoto{
 background-image: url(../images/homepageHeadshot.jpg);
 background-size: cover;
-background-position: center;
+background-position: 40%;
 height:500px;
+image-rendering: crisp-edges;
+ image-rendering: -moz-crisp-edges;
 }
 #homepagePhoto2{
   background-image: url(../images/homepageSkyline.jpg);
@@ -278,7 +281,8 @@ height:500px;
  justify-content: flex-end;
 }
 .colBTop{
-  padding:120px 5vw;
+  padding:40px;
+    margin: auto;
 }
 .colA{background-color:var(--rose);}
 .colB{background-color: var(--light-green);}
@@ -419,8 +423,21 @@ input:focus, button:focus, textarea:focus{
 textarea{
   resize:none;
 }
-/*homepage breakpoint*/
+
 @media only screen and (max-width: 1450px) {
+  .homepageLHS{
+    width:50%;
+  }
+  .homepageRHS{
+    width:50%;
+  }
+  .verticalSeperator{
+    margin:0px 10px;
+  }
+}
+
+/*homepage breakpoint*/
+@media only screen and (max-width: 1250px) {
   .homepageSplit{
     flex-direction: column;
   }
@@ -431,11 +448,8 @@ textarea{
     margin:100px 0px;
   }
   .homepageRHS{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
-  }
-  .verticalSeperator{
-    margin:0px 10px;
   }
 }
 
@@ -470,9 +484,7 @@ textarea{
     margin: auto;
     width:300px;
   }
-  .lawyersPanel{
-    padding:0px 10px;
-    }
+ 
   .quoteblock p{
     padding:60px;
     font-size:18px;

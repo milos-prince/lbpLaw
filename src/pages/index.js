@@ -1,10 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import christina from "../images/christina.jpg"
+
 
 const IndexPage = () => (
   <Layout>
@@ -32,8 +30,7 @@ const IndexPage = () => (
         </div>
         <div className="d-flex column colB">
         <div className="colBTop">
-          <p>Arbitration and mediation are forms of Alternate Dispute Resolution (ADR) intended to avoid the high cost and unpredictable outcomes that could result from going to court. Both mediation and arbitration are private. The parties who have a dispute, their issues and evidence, and the decision or agreement are confidential.</p>
-          <p className="mb-0">But mediation requires parties to agree in the end, and if there is no agreement, there is no concrete result. Arbitration is a process that results in a decision which is final and binding on the parties.</p>
+          <p className="mb-0">Arbitration and mediation are forms of Alternate Dispute Resolution (ADR) intended to avoid the high cost and unpredictable outcomes that could result from going to court. Both mediation and arbitration are private. The parties who have a dispute, their issues and evidence, and the decision or agreement are confidential.</p>
         </div>
         <div id="homepagePhoto2"></div>
         </div>
