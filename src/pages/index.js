@@ -32,8 +32,10 @@ const IndexPage = () => (
         </div>
         <div className="d-flex column colB">
         <div className="colBTop">
-          <p className="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id aliquet enim. Pellentesque tempus felis eros, ut volutpat metus consequat a. Ut cursus egestas iaculis. Nullam vitae finibus ex.</p></div>
-          <div id="homepagePhoto2"></div>
+          <p>Arbitration and mediation are forms of Alternate Dispute Resolution (ADR) intended to avoid the high cost and unpredictable outcomes that could result from going to court. Both mediation and arbitration are private. The parties who have a dispute, their issues and evidence, and the decision or agreement are confidential.</p>
+          <p className="mb-0">But mediation requires parties to agree in the end, and if there is no agreement, there is no concrete result. Arbitration is a process that results in a decision which is final and binding on the parties.</p>
+        </div>
+        <div id="homepagePhoto2"></div>
         </div>
       </div>
       

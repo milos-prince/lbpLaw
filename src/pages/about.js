@@ -1,10 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import christina from "../images/christina.jpg"
+import aboutPicture from "../images/aboutPicture.jpg"
 import resume from "../../static/leslie-resume.pdf"
 
 const IndexPage = () => (
@@ -22,7 +19,7 @@ const IndexPage = () => (
         <p>I served as the President of the Law Society of Saskatchewan for 2019 and continue to sit on the Executive Committee as Past-President. My term as a Bencher will expire in December 2021.</p>
         </div>
         <div>
-          <img src={christina} id="aboutPicture"/>
+          <img src={aboutPicture} id="aboutPicture"/>
         </div>
       </div>
     </section>

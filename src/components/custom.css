@@ -146,10 +146,15 @@ header{
 header a{
   text-decoration: none;
 }
-header .headerDesktopLHS{
+header .headerDesktop{
   width:1000px;
   display: flex;
   justify-content: space-evenly;
+}
+header .headerMobile{
+  flex-direction: column;
+  justify-content: start;
+  display: none;
 }
 .activeLink{
   border-bottom:2px solid black;
@@ -245,13 +250,13 @@ font-size:22px;
   font-family: 'prata';
 }
 #homepagePhoto{
-background-image: url(../images/christina.jpg);
+background-image: url(../images/homepageHeadshot.jpg);
 background-size: cover;
 background-position: center;
 height:500px;
 }
 #homepagePhoto2{
-  background-image: url(../images/sask40.jpg);
+  background-image: url(../images/homepageSkyline.jpg);
   height:260px;
   background-size: cover;
   position: relative;
@@ -469,6 +474,12 @@ textarea{
   .quoteblock{
     margin-left:-6vw;
     width:90vw;
+  }
+  header .headerDesktop{
+    display: none;
+  }
+  header .headerMobile{
+    display: flex;
   }
 }
 

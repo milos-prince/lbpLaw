@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Leslie Belloc-Pinder Arbitration`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id aliquet enim. Pellentesque tempus felis eros, ut volutpat metus consequat a. Ut cursus egestas iaculis. Nullam vitae finibus ex.`,
+    description: `Arbitration, adjudication, and decision-making resolution. Leslie Belloc-Pinder is a Saskatoon based lawyer with years of experience in arbitration and family law. Her Alternate Dispute Resolution (ADR) practice aims for quick and effective dispute resolution.`,
     author: `www.bigshrek.tech`,
   },
   plugins: [
@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/circle.svg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
