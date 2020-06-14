@@ -172,7 +172,29 @@ footer a{
 }
 
 /*link animation*/
-
+.linkUnderlineWrapper:hover{
+    cursor: pointer;
+}
+.linkUnderlineWrapper:hover .linkUnderline:before,  .linkUnderlineWrapper:hover .linkUnderline:after{
+  width: 100%;
+  opacity: 1;
+}
+.linkUnderline{
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+.linkUnderline:before, .linkUnderline:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 0px;
+  height: 2px;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  transition-duration: 0.8s;
+  opacity: 0;
+  background-color: black;
+}
 
 /*homepage*/
 .homepageSplit{
