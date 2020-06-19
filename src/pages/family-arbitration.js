@@ -24,7 +24,7 @@ const IndexPage = () => (
       <h1 className="rightQuote mb-0">”</h1>
       </div>
       </section>
-      <section className="textSection">
+      <section className="textSection familyBg">
       <div>
         <h2>Benefits of family arbitration</h2>  
         <ul className="serrat benefitsOfArbitration">

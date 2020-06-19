@@ -377,6 +377,14 @@ image-rendering: crisp-edges;
   font-family: 'Prata';
   line-height: 144.1%;
 }
+.familyBg{
+  height:700px;
+  display: flex;
+  align-items:center;
+  background-image: url(../images/family.jpg);
+  background-size: cover;
+  background-position: 60% 60%;
+}
 .leftQuote, .rightQuote{
   position: absolute;
   font-size:100px;
