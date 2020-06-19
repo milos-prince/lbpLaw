@@ -16,6 +16,11 @@ const IndexPage = () => (
       <p>I will confirm my hearing and cancellation fee structure upon confirmation of my appointment. My objective is to schedule hearings to be held within 6 months or less and exceed expectations for completing decisions quickly; ideally within 60 days of final submissions.</p>
       </div>
     </section>
+    <section className="textSection workplacePad">
+      <h2>Workplace Investigation</h2>
+      <p>During the past decade, I have been retained by several institutional and corporate employers throughout Saskatchewan to conduct external investigations into harassment and discrimination complaints in both unionized and non-unionized workplaces. Some investigations have involved making recommendations for remedies and discipline while others have been limited to fact-finding.</p>
+      <p>I am available for and interested in continuing this work, for which I usually charge fees on an hourly or daily basis (for both interviews and report writing) plus out-of-pocket expenses. Rates are negotiable.</p>
+    </section>
   </Layout>
 )
 

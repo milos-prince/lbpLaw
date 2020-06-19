@@ -6,7 +6,7 @@ const NotFoundPage = () => (
   <Layout>
     <SEO title="Contact" />
     <section className="headerSection justify-center"><h1 className="mb-0">Contact me</h1></section>
-    <section className="textSection text-center">
+    <section className="textSection">
     
     
     <div className="contactFormWrapper">
@@ -28,7 +28,12 @@ const NotFoundPage = () => (
   <div class="form-group">
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message"></textarea>
   </div>
-  <div className="text-center"><button type="submit">Submit</button></div>
+  <h5 className="disclaimerHeading">Cautionary note:</h5>
+  <p className="disclaimer">If you are not currently a client of Leslie Belloc-Pinder, any information you communicate in your email is not protected by lawyer/client confidentiality, nor is a lawyer/client relationship established by our receipt of this email. Before we can discuss any legal matter, we must ensure that we do not have a conflict of interest. Please do not send us any confidential information in your e-mail.</p>
+  <input type="checkbox" id="disclaimer" name="disclaimer" required />
+  <label for="disclaimer" className="iUnderstand"> I Understand</label>
+  <div className="text-center submit"><button type="submit">Submit</button></div>
+  
   </form>
   </div>
     

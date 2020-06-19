@@ -23,7 +23,24 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section className="textSection d-flex justify-center align-center">
+  <section className="textSection aboutBulletSection">
+      <div className="aboutBulletContent">
+      <h2>I understand every case requiring a decision is the same and requires:</h2>
+      <ul className="benefitsOfArbitration">
+        <li>A clear and transparent process</li>
+        <li>Neutrality, confidentiality, fairness</li>
+        <li>A well-reasoned and written decision provided on time</li>
+      </ul>
+      </div>
+      <div className="aboutBulletContent">
+      <h2>I understand every case requiring a decision is the unique and I am:</h2>
+      <ul className="benefitsOfArbitration">
+        <li>Adaptable and approachable</li>
+        <li>Flexible and creative with a view to meeting parties' needs</li>
+      </ul>
+      </div>
+</section>
+    <section className="d-flex justify-center align-center bg-pink">
       <div className="infoBox text-center">
         <h2>More information</h2>
         <p>To view Leslie's cv, <a href={resume} className="gold">click here</a></p>

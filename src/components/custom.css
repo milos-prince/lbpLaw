@@ -123,6 +123,13 @@ h4 {
   font-size: 36px;
   line-height: 1.1;
 }
+h5{
+  font-family: 'Montserrat';
+  font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+}
 a{
   color:black;
 }
@@ -161,9 +168,7 @@ header .headerMobile{
 }
 .mobileNav{
   padding:10px 0px;
-  
 }
-
 header .headerMobile .linkUnderlineWrapper{
   margin:20px 0px;
 }
@@ -244,7 +249,7 @@ footer a{
 }
 .homepageRHS{
   width:60%;
-  max-width: 1000px;
+  max-width: 900px;
   padding-top:50px;
 }
 .homepageRHS h2{
@@ -284,7 +289,7 @@ font-size:22px;
 #homepagePhoto{
 background-image: url(../images/homepageHeadshot.jpg);
 background-size: cover;
-background-position: 40%;
+background-position: 25% bottom;
 height:500px;
 image-rendering: crisp-edges;
  image-rendering: -moz-crisp-edges;
@@ -306,8 +311,11 @@ image-rendering: crisp-edges;
  justify-content: flex-end;
 }
 .colBTop{
-  padding:40px;
+  padding:80px;
     margin: auto;
+}
+.colBTop p{
+  font-size:14px;
 }
 .colA{background-color:var(--rose);}
 .colB{background-color: var(--light-green);}
@@ -338,6 +346,12 @@ image-rendering: crisp-edges;
 .aboutContent{
   justify-content: space-between;
   max-width: 1400px;
+}
+.aboutBulletSection{
+  padding-top:100px;
+}
+.aboutBulletContent{
+  padding-bottom:60px;
 }
 .aboutWrapper{
   padding-right:0vw;
@@ -378,11 +392,11 @@ image-rendering: crisp-edges;
 }
 .benefitsOfArbitration{
   list-style: disc;
+  font-family: 'montserrat';
 }
 .myProcess {
   list-style: none;
   flex-wrap: wrap;
-  
 }
 .myProcess li {
   counter-increment: nonsense;
@@ -405,6 +419,8 @@ ol li::before {
   padding:40px;
   width:100%;
   max-width: 1000px;
+  background: white;
+  margin:160px 20px;
 }
 .infoBox h2, .infoBox p{
   color:#3D3D45;
@@ -414,6 +430,10 @@ ol li::before {
 }
 .gold{
   color:#b86508;
+}
+.workplacePad{
+  padding-top:100px;
+  padding-bottom: 100px;
 }
 /*contact form*/
 .form-group{
@@ -448,7 +468,23 @@ input:focus, button:focus, textarea:focus{
 textarea{
   resize:none;
 }
-
+.disclaimer{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+margin-bottom: 8px;
+}
+.disclaimerHeading{
+  margin-bottom: 2px;
+}
+.iUnderstand{
+  font-size:14px;
+}
+.submit{
+  margin-top:10px;
+}
 @media only screen and (max-width: 1450px) {
   .homepageLHS{
     width:50%;
@@ -530,5 +566,9 @@ textarea{
 .colA, .colB{
   width:50%;
 }
+.colBTop{
+  padding:15px;
+}
+
 
 }
