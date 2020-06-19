@@ -20,7 +20,7 @@ const IndexPage = () => (
             <h4>Resolution</h4>
             </div>
           </div>
-        <Link to="/about/"><button className="btn dtn-dark">Learn more</button></Link>
+        <Link to="/about/"><button className="btn">Learn more</button></Link>
         </div>
       </div>
       <div className="homepageRHS d-flex">

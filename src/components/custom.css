@@ -253,11 +253,17 @@ footer a{
   padding-top:50px;
 }
 .homepageRHS h2{
-  font-size: 24px;
+  font-size: 18px;
 line-height: 33px;
 font-weight:400;
 justify-self: center;
 align-self: center;
+}
+.homepageRHS a{
+  color:#3D3D45;
+}
+.homepageRHS a:hover{
+  color:#86868c;
 }
 .lawyersPanel{
   margin: auto;
@@ -282,9 +288,15 @@ font-size:22px;
   width:100%;
   background: #3D3D45;
   border:none;
-  height:40px;
+  height:45px;
   color:white;
   font-family: 'prata';
+  font-size:14px;
+}
+.homepageBusinessCard button:hover{
+  background: transparent;
+  color:#3d3d45;
+  border:2px solid #3d3d45;
 }
 #homepagePhoto{
 background-image: url(../images/homepageHeadshot.jpg);
@@ -319,6 +331,7 @@ image-rendering: crisp-edges;
 }
 .colA{background-color:var(--rose);}
 .colB{background-color: var(--light-green);}
+
 /*content pages*/
 .headerSection{
   height:200px;
@@ -331,6 +344,10 @@ image-rendering: crisp-edges;
 .textSection {
   line-height: 170%;
   padding:40px;
+}
+.tb-pad-increase{
+  padding-top:100px;
+  padding-bottom:100px;
 }
 .headerSection, .textSection{
   padding-left:10vw;
@@ -419,7 +436,7 @@ ol li::before {
   margin-left:50px;
 }
 .max500{
-  max-width: 800px;
+  max-width: 790px;
   margin:25px auto;
 }
 .infoBox{
@@ -489,6 +506,7 @@ margin-bottom: 8px;
 }
 .iUnderstand{
   font-size:14px;
+  margin-left:5px;
 }
 .submit{
   margin-top:10px;

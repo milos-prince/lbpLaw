@@ -31,7 +31,7 @@ const NotFoundPage = () => (
   <h5 className="disclaimerHeading">Cautionary note:</h5>
   <p className="disclaimer">If you are not currently a client of Leslie Belloc-Pinder, any information you communicate in your email is not protected by lawyer/client confidentiality, nor is a lawyer/client relationship established by our receipt of this email. Before we can discuss any legal matter, we must ensure that we do not have a conflict of interest. Please do not send us any confidential information in your e-mail.</p>
   <input type="checkbox" id="disclaimer" name="disclaimer" required />
-  <label for="disclaimer" className="iUnderstand"> I Understand</label>
+  <label for="disclaimer" className="iUnderstand"> I understand</label>
   <div className="text-center submit"><button type="submit">Submit</button></div>
   
   </form>
