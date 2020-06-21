@@ -309,6 +309,7 @@ image-rendering: crisp-edges;
 #homepagePhoto2{
   background-image: url(../images/homepageSkyline.jpg);
   height:260px;
+  background-position: 40% bottom;
   background-size: cover;
   position: relative;
   bottom:0px;
@@ -511,6 +512,8 @@ margin-bottom: 8px;
 .submit{
   margin-top:10px;
 }
+
+/*homepage breakpoint 1*/
 @media only screen and (max-width: 1450px) {
   .homepageLHS{
     width:50%;
@@ -521,9 +524,24 @@ margin-bottom: 8px;
   .verticalSeperator{
     margin:0px 10px;
   }
+  #homepagePhoto{
+    height:400px;
+  }
+  #homepagePhoto2{
+    height:200px;
+  }
+  .lawyersPanel{
+    padding:80px 10px;
+  }
+  .homepageRHS{
+    padding-top:0px
+  }
+  .colBTop{
+    padding:50px;
+  }
 }
 
-/*homepage breakpoint*/
+/*homepage breakpoint 2*/
 @media only screen and (max-width: 1250px) {
   .homepageSplit{
     flex-direction: column;
@@ -538,6 +556,12 @@ margin-bottom: 8px;
     max-width: 1000px;
     margin: auto;
   }
+  #homepagePhoto{
+    height:500px;
+    }
+    #homepagePhoto2{
+      height:260px;
+      }
 }
 
 /*about breakpoint*/

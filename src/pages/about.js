@@ -28,7 +28,7 @@ const IndexPage = () => (
       <h2>I understand every case requiring a decision is the same and requires:</h2>
       <ul className="benefitsOfArbitration">
         <li>A clear and transparent process</li>
-        <li>Neutrality, confidentiality, fairness</li>
+        <li>Neutrality and fairness</li>
         <li>A well-reasoned and written decision provided on time</li>
       </ul>
       </div>

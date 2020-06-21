@@ -45,10 +45,10 @@ const IndexPage = () => (
     </ol>
     </section>
     <section className="textSection text-center tb-pad-increase">
-      <h2>I am uniquely qualified to deliver family arbitration serviced in Saskatchewan</h2>
+      <h2>I am uniquely qualified to deliver family arbitration services in Saskatchewan</h2>
       <div className="max500">
-        <p>There are many experienced family law lawyers who may seek to become arbitrators due to the changes to the law noted above, and there are many commercial/labor arbitrators who are already experienced in conducting hearings, but these two areas of legal practice do not often intersect.</p>
-        <p className="mb-0">Due to my somewhat unique professional experience as lawyer who practiced a substantial amount of family law from 1986 – 2008 and who has also been working almost full-time as a decision maker from 2008 onward, I have the skills and experience necessary to conduct family arbitration hearings with considerable knowledge of family law and insight into the challenges faced by people challenged by family breakdown.</p>
+        <p>There are many experienced family law lawyers who may seek to become arbitrators due to the changes in the law noted above, and there are many commercial/labor arbitrators who are already experienced in conducting hearings, but these two areas of legal practice do not often intersect.</p>
+        <p className="mb-0">Due to my somewhat unique professional experience as a lawyer who practiced a substantial amount of family law for nearly 25 years and who has also been working almost full-time as a decision maker from 2008 onward, I have the skills and experience necessary to conduct family arbitration hearings with considerable knowledge of family law and insight into the challenges faced by people dealing with family breakdown.</p>
       </div>
     </section>
     <section className="bg-light-green textSection">
