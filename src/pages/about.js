@@ -29,7 +29,7 @@ const IndexPage = () => (
       <ul className="benefitsOfArbitration">
         <li>A clear and transparent process</li>
         <li>Neutrality and fairness</li>
-        <li>A well-reasoned and written decision provided on time</li>
+        <li>A well-reasoned written decision provided on time</li>
       </ul>
       </div>
       <div className="aboutBulletContent">
