@@ -11,7 +11,7 @@ const NotFoundPage = () => (
     
     <div className="contactFormWrapper">
       
-    <form name="contact" method="post" data-netlify="true" netlify-honeypot="bot-field">
+    <form name="contact" method="post" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you/">
     <input type="hidden" name="form-name" value="contact" />
     <p className="d-none">
     <label>This field is not for hum.ans <input name="bot-field" /></label>
