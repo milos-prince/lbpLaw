@@ -25,7 +25,7 @@ const IndexPage = () => (
     </section>
   <section className="textSection aboutBulletSection">
       <div className="aboutBulletContent">
-      <h2>I understand every case requiring a decision is the same and requires:</h2>
+      <h2>I understand every case requiring a decision is the same and needs:</h2>
       <ul className="benefitsOfArbitration">
         <li>A clear and transparent process</li>
         <li>Neutrality and fairness</li>
@@ -33,7 +33,7 @@ const IndexPage = () => (
       </ul>
       </div>
       <div className="aboutBulletContent">
-      <h2>I understand every case requiring a decision is the unique and I am:</h2>
+      <h2>I understand every case requiring a decision is unique and I am:</h2>
       <ul className="benefitsOfArbitration">
         <li>Adaptable and approachable</li>
         <li>Flexible and creative with a view to meeting parties' needs</li>
