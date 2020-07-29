@@ -11,11 +11,11 @@ const IndexPage = () => (
     </section>
     <section className="textSection bg-light-green">
       <div className="labourTextbox">
-      <p>On March 1, 2021 significant changes to <span className="ital">The Divorce Act</span> (which applies throughout Canada) will come into effect. These changes are designed, in part, to make it easier for people to resolve family law issues outside the courtroom. Amendments to Saskatchewan’s legislation, including <span className="ital">The Children’s Law Act,</span> will also be implemented to conform with the federal law and provide provisions regarding arbitration, among other changes.</p>
-      <p>Saskatchewan has already implemented an Early Family Dispute Resolution (ERO) process which is mandatory in Prince Albert as a pilot project and is expected to be extended throughout the province soon.</p>
+      <p>On March 1, 2021 significant changes to <span className="ital">The Divorce Act</span> (which applies throughout Canada) will come into effect. These changes are designed, in part, to make it easier for people to resolve family law issues outside the courtroom. Amendments to Saskatchewan’s legislation, including <span className="ital">The Children’s Law Act,</span> will also be implemented to align with the federal law and provide provisions regarding arbitration, among other changes.</p>
+      <p>Saskatchewan has already implemented an Early Family Dispute Resolution (EDR) process which is mandatory in Prince Albert as a pilot project and is expected to be extended throughout the province soon.</p>
       </div>
       <div className="indentLeft">
-      <p className="bold">These links below explain how family arbitration fits into the ERO:</p>
+      <p className="bold">These links below explain how family arbitration fits into the EDR:</p>
       <p><a href="https://www.saskatchewan.ca/residents/births-deaths-marriages-and-divorces/separation-or-divorce/early-family-dispute-resolution/family-arbitration">Family Arbitration</a></p>
       <p><a href={resolution}>Mandatory Early Dispute Resolution</a></p>
       </div>
