@@ -208,10 +208,15 @@ footer a{
 }
 .footerContent{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width:1250px;
 }
-
+.footerContent h2{
+  font-size:18px;
+}
+.footerContent p{
+  font-size:16px;
+}
 /*link animation*/
 .linkUnderlineWrapper:hover{
     cursor: pointer;
