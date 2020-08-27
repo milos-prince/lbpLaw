@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 const NotFoundPage = () => (
   <Layout>
     <SEO title="Contact" />
-    <section className="headerSection justify-center"><h1 className="mb-0">Contact me</h1></section>
+    <section className="headerSection justify-center content-header"><h1 className="mb-0">Contact me</h1></section>
     <section className="textSection">
     
     
