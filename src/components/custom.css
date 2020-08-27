@@ -344,9 +344,6 @@ image-rendering: crisp-edges;
   padding-top:50px;
   display: flex;
 }
-.content-header{
-  height:125px;
-}
 .headerSection h1{
   display: inline-block;
   align-self: flex-end;
@@ -604,6 +601,9 @@ margin-bottom: 8px;
   }
   .headerSection{
     height:150px;
+  }
+  .contact-header{
+    height:50px;
   }
 }
 /*footer breakpoint*/
