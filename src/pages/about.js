@@ -7,7 +7,7 @@ import resume from "../../static/leslie-resume.pdf"
 const IndexPage = () => (
   <Layout>
     <SEO title="Labour and commercial arbitration" />
-    <section className="headerSection">
+    <section className="headerSection shortHeader">
       <h1>About Leslie Belloc-Pinder</h1>
     </section>
     <section className="textSection bg-light-green aboutWrapper">

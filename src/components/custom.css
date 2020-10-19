@@ -169,7 +169,17 @@ header .headerMobile{
 .mobileNav{
   padding:10px 0px;
 }
+.navClosed{
+  position: absolute;
+  transform: translateY(-150%);
+}
+.navClosed .l1, .navClosed .l2, .navClosed .l3, .navClosed .l4, .navClosed .l5 {
+  transition:linear .4s opacity;
+  opacity:0;
+}
 header .headerMobile .linkUnderlineWrapper{
+  transition: linear 1s opacity;
+
   margin:20px 0px;
 }
 .logo{
@@ -341,7 +351,6 @@ image-rendering: crisp-edges;
 /*content pages*/
 .headerSection{
   height:200px;
-  padding-top:50px;
   display: flex;
 }
 .headerSection h1{
@@ -569,7 +578,21 @@ margin-bottom: 8px;
       height:260px;
       }
 }
-
+/*homepage phone*/
+@media only screen and (max-width: 750px) {
+  .homepageRHS{
+    display:none;
+  }
+  .homepageLHS{
+    margin-top:20px;
+  }
+  .headerSection{
+    height:150px;
+  }
+  .contact-header{
+    height:50px;
+  }
+}
 /*about breakpoint*/
 @media only screen and (max-width: 1150px) {
   .aboutWrapper{
@@ -594,18 +617,7 @@ margin-bottom: 8px;
     max-width: 100%;
   }
 }
-/*homepage phone*/
-@media only screen and (max-width: 750px) {
-  .homepageRHS{
-    display:none;
-  }
-  .headerSection{
-    height:150px;
-  }
-  .contact-header{
-    height:50px;
-  }
-}
+
 /*footer breakpoint*/
 @media only screen and (max-width: 820px) {
   .footerContent{
@@ -637,6 +649,18 @@ margin-bottom: 8px;
 .colBTop{
   padding:15px;
 }
+.homepageBusinessCard h1 {
+  font-size:1.5rem;
+}
+.homepageBusinessCard h4 {
+  font-size:30px;
+}
+.homepageBusinessCard li {
+  font-size:15px !important;
+}
 
+.shortHeader{
+  height:100px
+}
 
 }

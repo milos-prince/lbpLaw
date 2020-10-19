@@ -18,10 +18,12 @@ class Collapsible extends Component {
         <div onClick={(e)=>this.togglePanel(e)} className='hamburgerButton'><img src={hamburger} id="hamburger" /></div>
         
         {this.state.open ? (
-        <div className='mobileNav'>
+        <div className='mobileNav navOpen'>
           {this.props.children}
         </div>
-        ) : null}
+        ) : <div className='mobileNav navClosed'>
+        {this.props.children}
+      </div>}
         </div>);
         }
         }

@@ -6,7 +6,7 @@ import resolution from "../../static/early-dispute-resolution.pdf"
 const IndexPage = () => (
   <Layout>
     <SEO title="Family arbitration" />
-    <section className="headerSection">
+    <section className="headerSection shortHeader">
       <h1>Family arbitration</h1>
     </section>
     <section className="textSection bg-light-green">
