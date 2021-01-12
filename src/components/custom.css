@@ -179,7 +179,6 @@ header .headerMobile{
 }
 header .headerMobile .linkUnderlineWrapper{
   transition: linear 1s opacity;
-
   margin:20px 0px;
 }
 .logo{
@@ -222,10 +221,10 @@ footer a{
   max-width:1250px;
 }
 .footerContent h2{
-  font-size:18px;
+  font-size:17px;
 }
 .footerContent p{
-  font-size:16px;
+  font-size:14px;
 }
 /*link animation*/
 .linkUnderlineWrapper:hover{
@@ -352,6 +351,13 @@ image-rendering: crisp-edges;
 .headerSection{
   height:200px;
   display: flex;
+}
+.contact-header{
+  height:170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
 .headerSection h1{
   display: inline-block;
