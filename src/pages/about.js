@@ -15,7 +15,7 @@ const IndexPage = () => (
         <div className="aboutTextbox">
         <p>I am a Chartered Arbitrator with experience conducting hearings across several areas of substantive law (labour and employment, environmental protection, immigration, Indian Residential Schools Settlement Agreement: IAP, farm security and ownership).</p>
         <p>My professional focus has been on administrative tribunal decision making, in various capacities, since 2008, except for my continued representation of the Ministry of Social Services in Saskatchewan in child protection matters.</p>
-        <p>I am a litigation lawyer with 35 years experience. I have conducted well over 150 Superior Court trials as counsel, which resulted in dozens of reported decisions.</p>
+        <p>I am a litigation lawyer with over 35 years experience. I have conducted well over 150 Superior Court trials as counsel, which resulted in dozens of reported decisions.</p>
         <p>I served as the President of the Law Society of Saskatchewan for 2019 and continue to sit on the Executive Committee as Past-President. My term as a Bencher will expire in December 2021.</p>
         </div>
         <div>
