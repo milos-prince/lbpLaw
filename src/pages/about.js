@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import aboutPicture from "../images/aboutPicture.jpg"
-import resume from "../../static/leslie-resume.pdf"
+import resume from "../../static/leslie-resume2.pdf"
 
 const IndexPage = () => (
   <Layout>
