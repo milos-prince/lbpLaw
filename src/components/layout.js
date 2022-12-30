@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
         <footer>
           <div className="footerContent">
             <div>
-            <h2>Leslie Belloc-Pinder, Q.C.</h2>
+            <h2>Leslie Belloc-Pinder, K.C.</h2>
             <p>601-402 21st Street East <br />Saskatoon, SK S7K 0C3</p>
             <p>In association with Hnatyshyn Gough Law Firm
             <br /><a href="https://www.hglaw.ca">www.hglaw.ca</a></p>
