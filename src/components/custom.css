@@ -254,8 +254,6 @@ footer a{
 /*homepage*/
 .homepageSplit{
   justify-content: space-between;
-  max-width: 2000px;
-  margin: auto;
 }
 .homepageLHS{
   width:40%;
