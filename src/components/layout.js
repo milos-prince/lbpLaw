@@ -33,14 +33,11 @@ const Layout = ({ children }) => {
           <div className="footerContent">
             <div>
             <h2>Leslie Belloc-Pinder, K.C.</h2>
-            <p>601-402 21st Street East <br />Saskatoon, SK S7K 0C3</p>
-            <p>In association with Hnatyshyn Gough Law Firm
-            <br /><a href="https://www.hglaw.ca">www.hglaw.ca</a></p>
+            <p>LBP Legal Prof Corp</p>
+            <p>Saskatoon, Saskatchewan</p>
             </div>
             <div>
-            <h2>Call me: <a href="tel:306-653-5154">(306) 653-5154</a></h2>
-            <p>Fax: (306) 652-5859</p>
-            <p>Email: <a href="mailto:lbelloc-pinder@hglaw.ca">lbelloc-pinder@hglaw.ca</a></p>
+            <p>Email: <a href="mailto:leslie@lbplaw.ca">leslie@lbplaw.ca</a></p>
             </div>
           </div>
         </footer>
