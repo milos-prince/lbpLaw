@@ -157,7 +157,7 @@ header a{
   text-decoration: none;
 }
 header .headerDesktop{
-  width:1000px;
+  width:750px;
   display: flex;
   justify-content: space-evenly;
 }
