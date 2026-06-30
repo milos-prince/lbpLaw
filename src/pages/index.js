@@ -26,7 +26,7 @@ const IndexPage = () => (
       <div className="homepageRHS d-flex">
         <div className="d-flex column colA">
         <div id="homepagePhoto"></div>
-        <div className="lawyersPanel"><h2 className="mb-0"><Link to="/family-arbitration#note-to-lawyers">Information for lawyers</Link></h2></div>
+        <div className="lawyersPanel"></div>
         </div>
         <div className="d-flex column colB">
         <div className="colBTop">
