@@ -30,7 +30,7 @@ const IndexPage = () => (
         </div>
         <div className="d-flex column colB">
         <div className="colBTop">
-          <p className="mb-0">Administrative law decision-making requires experience and a commitment to fairness. As a Chartered Arbitrator focused on tribunal adjudication since 2008, I bring over 40 years of litigation experience to complex labour and employment, immigration, and environmental disputes. I will provide a transparent, approachable process anchored by neutrality and adaptability. You can rely on a fair hearing and a well-reasoned written decision delivered promptly.</p>
+          <p className="mb-0">Administrative law decision-making requires experience and a commitment to fairness. As an arbitrator since 2008, I bring over 40 years of litigation experience to complex labour and employment, immigration, and environmental disputes. I will provide a transparent, approachable process anchored by neutrality and adaptability. You can rely on a fair hearing and a well-reasoned written decision delivered promptly.</p>
         </div>
         <div id="homepagePhoto2"></div>
         </div>

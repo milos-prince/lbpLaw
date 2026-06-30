@@ -13,7 +13,7 @@ const IndexPage = () => (
     <section className="textSection bg-light-green aboutWrapper">
       <div className="twoPanel aboutContent">
         <div className="aboutTextbox">
-        <p>I am a Chartered Arbitrator with experience conducting hearings across several areas of substantive law (labour and employment, environmental protection, immigration, Indian Residential Schools Settlement Agreement: IAP, farm security and ownership).</p>
+        <p>I have experience conducting hearings across several areas of substantive law (labour and employment, environmental protection, immigration, Indian Residential Schools Settlement Agreement: IAP, farm security and ownership).</p>
         <p>My professional focus has been on administrative tribunal decision making, in various capacities, since 2008.</p>
         <p>Prior to limiting my practice to decision making and workplace investigations, I was a litigation lawyer with 40 years experience. I have conducted well over 150 Superior Court trials as counsel, which resulted in dozens of reported decisions.</p>
         <p>I served as the President of the Law Society of Society of Saskatchewan for 2019 and completed my 6 year term as a Bencher in December 2021.</p>
